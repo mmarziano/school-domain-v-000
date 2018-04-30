@@ -18,7 +18,8 @@ class School
     @roster[grade]
   end
   
-  def sort(grade)
+  def sort(@roster)
+    
     @roster[grade] = 
     roster_by_key.sort_by {|k,v| v}
   end
