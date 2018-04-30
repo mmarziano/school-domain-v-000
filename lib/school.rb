@@ -19,6 +19,6 @@ class School
   end
   
   def sort
-    @roster.sort_by {|key, value| key[1] <=> value[1]}
+    @roster.sort
   end
 end 
