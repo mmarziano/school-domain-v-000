@@ -20,6 +20,6 @@ class School
   
   def sort
     roster_by_key = @roster.sort
-    roster_by_key.sort_by {|k,v| value}
+    roster_by_key.sort_by {|k,v| v}
   end
 end 
