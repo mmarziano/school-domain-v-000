@@ -19,8 +19,7 @@ class School
   end
   
   def sort(@roster)
-    
-    @roster[grade] = 
-    roster_by_key.sort_by {|k,v| v}
+    @roster.each do |key, value|
+      
   end
 end 
